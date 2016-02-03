@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <title></title>
+        <link rel="stylesheet" href="/css/weui.min.css"/>
+		<link rel="stylesheet" href="/css/jquery-weui.css">
+		<link rel="stylesheet" href="/css/examination.css">
+    </head>
+    <body>
+		<div class="container js_container">
+			<div class="page">
+				<div class="hd">
+					<h1 class="page_title">Button-button</h1>
+				</div>
+				<div class="bd spacing">
+					<a href="javascript:;" class="weui_btn weui_btn_primary">按钮</a>
+					<a href="javascript:;" class="weui_btn weui_btn_disabled weui_btn_primary">按钮</a>
+					<a href="javascript:;" class="weui_btn weui_btn_warn">确认</a>
+					<a href="javascript:;" class="weui_btn weui_btn_disabled weui_btn_warn">确认</a>
+					<a href="javascript:;" class="weui_btn weui_btn_default">按钮</a>
+					<a href="javascript:;" class="weui_btn weui_btn_disabled weui_btn_default">按钮</a>
+					<div class="button_sp_area">
+						<a href="javascript:;" class="weui_btn weui_btn_plain_default">按钮</a>
+						<a href="javascript:;" class="weui_btn weui_btn_plain_primary">按钮</a>
+			
+						<a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_primary">按钮</a>
+						<a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_default">按钮</a>
+					</div>
+				</div>
+			</div>
+    	</div>
+		<script src="/js/lib/require.js"></script>
+		<script>
+			requirejs(['/js/boot.js'], function (boot) {
+				require(['common/base'], function() {
+					requirejs(['js/pages/examination']);
+				});
+			});
+		</script>
+    </body>
+</html>

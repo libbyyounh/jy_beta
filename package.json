@@ -1,0 +1,35 @@
+{
+  "name": "jy-beta",
+  "version": "0.0.1",
+  "description": "jy-beta",
+  "keywords": [
+    "weui",
+    "wechat",
+    "weixin",
+    "css",
+    "less",
+    "mobile",
+    "jQuery",
+    "Zepto"
+  ],
+  "dirs": {
+    "archive": "archive",
+    "dist": "dist/",
+    "src": "src/",
+    "test": "test"
+  },
+  "scripts": {},
+  "author": "y",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-open":"^1.0.0",
+    "gulp-watch":"^4.2.4",
+    "gulp-livereload":"^3.8.0",
+    "connect-modrewrite":"^0.8.5"
+  }
+}
